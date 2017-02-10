@@ -24,13 +24,19 @@ class ViewController: UIViewController {
     
     @IBAction func touchBarcelona(_ sender: Any) {
         
-        
+        let equipo: IEquipo = Barcelona()
+//        let equipo: Barcelona = Barcelona()
+        let messi: Jugador = Jugador(equipo: equipo)
+        messi.mostrarEquipo()
     }
     
     
     @IBAction func touchManchesterUnited(_ sender: Any) {
         
-        
+        let equipo: IEquipo = ManchesterUnited()
+//        let equipo: ManchesterUnited = ManchesterUnited()
+        let messi: Jugador = Jugador(equipo: equipo)
+        messi.mostrarEquipo()
     }
     
     

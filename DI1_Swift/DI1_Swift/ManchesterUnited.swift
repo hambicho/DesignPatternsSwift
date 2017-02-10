@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class ManchesterUnited : IEquipo {
+    func mostrar() {
+        print("Soy del Manchester United")
+    }
+}

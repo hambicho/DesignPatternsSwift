@@ -7,3 +7,16 @@
 //
 
 import Foundation
+
+class Jugador {
+    
+    var equipo: IEquipo?
+    
+    init(equipo: IEquipo) {
+        self.equipo = equipo;
+    }
+    
+    func mostrarEquipo() -> Void {
+        self.equipo?.mostrar()
+    }
+}
